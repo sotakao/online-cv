@@ -30,29 +30,29 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: # To do
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: English
+    #       level: Native
 
-        - idiom: French
-          level: Professional
+    #     - idiom: French
+    #       level: Professional
 
-        - idiom: Spanish
-          level: Professional
+    #     - idiom: Spanish
+    #       level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Snowboarding
-          link:
+    #     - item: Snowboarding
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
     title: Career Profile
@@ -66,110 +66,91 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Applied Mathematics
+        university: Imperial College London
+        time: 2016 - 2020
+        thesis: Stochastic geometric mechanics for fluid modelling and MCMC (Supervised by Prof. Darryl Holm)
+          Developed and analysed novel stochastic parametrization schemes for weather/climate/ocean modelling based
+          on geometric principles of fluids. Also developed a novel MCMC method on manifolds via a similar principle.
+      - degree: MSc in Applied Mathematics (Pass with Distinction, 87/100)
+        university: Imperial College London
+        time: 2015 - 2016
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          I participated in the following modules: Asymptotic Analysis, Chaos and Fractals, Finite Element Methods,
+          Dynamical Systems, Geometric Mechanics, Geophysical Fluid Dynamics, Hydrodynamic Stability, 
+          Vortex Dynamics.
+        thesis: Stability of Relative Equilibrium Configurations of Quasigeostrophic Point Vortices (Supervised by Prof. Darryl Holm)
+          The goal of the project was to analyse the effect of length scale on the stability of N quasigeostrophic point vortices.
+          We found numerically that increasing the length scale destabilizes the equilibrium configurations
+          when N > 3 and proved it for the case N > 5.
+      - degree: BSc in Mathematics (First class honour, 81/100)
+        university: Imperial College London
+        time: 2012 - 2015
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Outside of the core modules (foundations, algebra, analysis, numerical methods, probability/statistics, mechanics),
+          I enrolled in the following courses offered at Imperial at the time: Algebraic Combinatorics,
+          Partial Differential Equations, Fluid Dynamics (inviscid and viscous theory),
+          Galois Theory, Group Theory, Metric Spaces and Topology, Scientific Computation.
+        thesis: Interaction of two coherent vortices in uniform background flow (Supervised by Proff. Pavel Berloff)
+          In this project, I studied the dynamics of two isolated coherent vortices subject to a uniform background flow.
+          Contributions include running simulations of quasigeostrophic vortex dynamics in FORTRAN to investigate the effects of
+          various parameters on the simulated flow.
+
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
+      - role: Postdoctoral Scholar Research Associate in Computing and Mathematical Sciences
         time: 2015 - Present
-        company: Startup Hubs, San Francisco
+        company: California Institute of Technology
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
+          Blah blah
+      - role: Research Fellow in Machine Learning for Climate Science
         time: 2014 - 2015
-        company: Google, London
+        company: University College London
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Blah blah
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
