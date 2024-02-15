@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: So Takao
@@ -57,12 +57,18 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      So Takao is a postdoctoral scholar at the California Institute of Technology, working on the intersection of
+      machine learning and data assimilation. His interests involve (1) developing efficient inference techniques for 
+      probabilistic models such as Gaussian processes and stochastic partial differential equations,
+      (2) developing machine learning models with physical, geometric or topological inductive biases, and
+      (3) applying machine learning techniques to problems in weather or climate science.
+      During 2021-2023, he was a Senior Research Fellow in Machine Learning for Climate Science at the UCL Sustainability and Machine Learning group.
+      There, he lead the Met Office Academic Partnership workgroup on "Data science methodology for weather and climate"
+      and intiated various collaborations across departments to work on problems related to climate change.
+      He received his PhD in 2020 from the Department of Mathematics at Imperial College London,
+      where he wrote his thesis on structure-preserving fluid models and MCMC techniques on Lie groups, advised by Prof. Darryl Holm.
+
+
 education:
     title: Education
     info:
@@ -101,15 +107,23 @@ experiences:
     title: Experiences
     info:
       - role: Postdoctoral Scholar Research Associate
-        time: 2015 - Present
+        time: 2024 - Present
         company: California Institute of Technology
+        principle_investigator: Prof. Andrew Stuart
         details: |
-          Blah blah
+          - Working on various projects involving Gaussian processes, data assimilation, uncertainty quantification and operator learning.
+
       - role: Research Fellow in Machine Learning for Climate Science
-        time: 2014 - 2015
+        time: 2021 - 2023
         company: University College London
+        principle_investigator: Prof. Marc Deisenroth
         details: |
-          Blah blah
+          - Worked on various projects to develop novel data assimilation algorithms using ideas from message passing,
+            Gaussian markov random fields, stochastic (partial) differential equations, differential geometry
+            and algebraic topology.
+          - Collaborated with the UCL Earth Science Department on various projects on sea-ice modelling.
+          - Supervised several BSc and MSc students.
+          - Lead the Met Office Academic Partnership workgroup on “Data science methodology for weather and climate”.
 
 # certifications:
 #       title: Certifications
@@ -152,95 +166,160 @@ experiences:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Preprints and Publications
+
+    preprints_heading: <b>Preprints</b>
+    preprints:
+      - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
+        link: "https://arxiv.org/pdf/2312.09769.pdf"
+        arxiv_id: "arXiv:2312.09769 (2023)"
+        authors: Oliver Street, So Takao
+
+      - title: "A geometric extension of the Itô-Wentzell and Kunita's Formulas"
+        link: "https://arxiv.org/pdf/2311.04439.pdf"
+        arxiv_id: "arXiv:2311.04439 (2023)"
+        authors: Aythami Bethencourt de León, So Takao
+
+      - title: "Gaussian processes on cellular complexes"
+        link: "https://arxiv.org/pdf/2311.01198.pdf"
+        arxiv_id: "arXiv:2311.01198 (2023)"
+        authors: Mathieu Alain, So Takao, Brooks Paige, Marc Deisenroth
+
+      - title: "Transport noise restores uniqueness and prevents blow-up in geometric transport equations"
+        link: "https://arxiv.org/pdf/2211.14695.pdf"
+        arxiv_id: "arXiv:2211.14695 (2022)"
+        authors: Aythami Bethencourt de León, So Takao
+
+      - title: "A unifying and canonical description of measure-preserving diffusions"
+        link: "https://arxiv.org/pdf/2105.02845.pdf"
+        arxiv_id: "arXiv:2105.02845 (2021)"
+        authors: Alessandro Barp, So Takao, Michael Bethencourt, Alexis Arnaudon, Mark Girolami
+
+    publications_heading: <b> Publications </b>
+    papers:
+      - title: "Actually sparse variational Gaussian processes"
+        link: "https://proceedings.mlr.press/v206/cunningham23a/cunningham23a.pdf"
+        authors: Harry Jake Cunningham, Daniel Augusto de Souza, So Takao, Mark van der Wilk, Marc Deisenroth
+        conference: "International Conference on Artificial Intelligence and Statistics (2023)"
+
+      - title: "Iterative state estimation in non-linear dynamical systems using approximate expectation propagation"
+        link: "https://openreview.net/pdf?id=xyt4wfdo4J"
+        authors: Sanket Kamthe, So Takao, Shakir Mohamed, Marc Deisenroth
+        journal: "Transactions on Machine Learning Research (2022)"
+
+      - title: "Vector-valued Gaussian processes on Riemannian manifolds via gauge-equivariant projected kernels"
+        link: "https://openreview.net/pdf?id=FwVmM8Zol_8"
+        authors: Michael Hutchinson, Alexander Terenin, Viacheslav Borovitskiy, So Takao, Yee Whye Teh, Marc Deisenroth
+        conference: "Neural Information Processing Systems (2021)"
+
+      - title: "Irreversible Langevin MCMC on Lie Groups"
+        link: "https://arxiv.org/pdf/1903.08939.pdf"
+        authors: Alexis Arnaudon, Alessandro Barp, So Takao
+        conference: "Geometric Science of Information (2019)"
+
+      - title: "Modelling the climate and weather of a 2D Lagrangian-averaged Euler-Boussinesq equation with transport noise"
+        link: "https://link.springer.com/content/pdf/10.1007/s10955-019-02443-9.pdf"
+        authors: Diego Alonso-Orán, Aythami Bethencourt de León, Darryl Holm, So Takao
+        journal: "Journal of Statistical Physics (2019)"
+
+      - title: "Implications of Kunita-Itô-Wentzell formula for k-forms in stochastic fluid dynamics"
+        link: "https://link.springer.com/article/10.1007/s00332-020-09613-0"
+        authors: Aythami Bethencourt de León, Darryl Holm, Erwin Luesink, So Takao
+        journal: "Journal of Nonlinear Science (2019)"
+
+      - title: "The Burgers' equation with stochastic transport: shock formation, local and global existence of smooth solutions"
+        link: "https://link.springer.com/content/pdf/10.1007/s00030-019-0602-6.pdf"
+        authors: Diego Alonso-Orán, Aythami Bethencourt de León, So Takao
+        journal: "Nonlinear Differential Equations and Applications (2019)"
+
+      - title: "Impacts of atmospheric reanalysis uncertainty on Atlantic Overturning Estimates at 25°N"
+        link: "https://journals.ametsoc.org/view/journals/clim/31/21/jcli-d-18-0241.1.xml"
+        authors: Helen R. Pillar, Helen L. Johnson, David P. Marshall, Patrick Heimbach, So Takao
+        journal: "Journal of Climate (2018)"
+
+      - title: "Networks of Coadjoint Orbits: from geometric to statistical mechanics"
+        link: "https://arxiv.org/pdf/1804.11139.pdf"
+        authors: Alexis Arnaudon, So Takao
+        journal: "Journal of Geometric Mechanics (2018)"
+
+    workshops_heading: <b> Workshop papers </b>
+    workshop_papers:
+      - title: "Short-term prediction and filtering of solar power using state-space Gaussian processes"
+        link: "https://arxiv.org/pdf/2302.00388"
+        authors: Sean Nassimiha, Peter Dudfield, Jack Kelly, Marc Deisenroth, So Takao
+        conference: "NeurIPS workshop on Tackling Climate Change with Machine Learning (2022)"
+
+      - title: "Actually sparse variational Gaussian processes"
+        link:
+        authors: Jake Cunningham, So Takao, Mark van der Wilk, Marc Deisenroth
+        conference: "NerIPS workshop on Gaussian Processes, Spatiotemporal Modelling, and Decision-Making Systems (2022)"
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below is a list of open source softwares that I have been involved in developing:
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: GPSat
+        link: "https://github.com/CPOMUCL/GPSat"
+        tagline: "Python package to interpolate nonstationary geospatial fields from observation data using local Gaussian process models"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: EPyStateEstimator
+        link: "https://github.com/sanket-kamthe/EPyStateEstimator"
+        tagline: "Iterative state estimation in non-linear dynamical systems using approximate expectation propagation"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: ExtrinsicGaugeIndependentVectorGPs
+        link: https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs
+        tagline: "A library implementing the kernels for and experiments using extrinsic gauge equivariant vector field Gaussian Processes"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - name: Javascript & jQuery
+#         level: 98%
 
-skills:
-    title: Skills &amp; Proficiency
+#       - name: Angular
+#         level: 98%
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - name: Ruby on Rails
+#         level: 85%
 
-      - name: Angular
-        level: 98%
+#       - name: Sketch & Photoshop
+#         level: 60%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
