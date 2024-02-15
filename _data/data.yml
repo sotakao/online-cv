@@ -109,15 +109,15 @@ experiences:
       - role: Postdoctoral Scholar Research Associate
         time: 2024 - Present
         company: California Institute of Technology
-        principle_investigator: Prof. Andrew Stuart
         details: |
+          - Principle investigator: Prof. Andrew Stuart
           - Working on various projects involving Gaussian processes, data assimilation, uncertainty quantification and operator learning.
 
       - role: Research Fellow in Machine Learning for Climate Science
         time: 2021 - 2023
         company: University College London
-        principle_investigator: Prof. Marc Deisenroth
         details: |
+          - Principle investigator: Prof. Marc Deisenroth
           - Worked on various projects to develop novel data assimilation algorithms using ideas from message passing,
             Gaussian markov random fields, stochastic (partial) differential equations, differential geometry
             and algebraic topology.
