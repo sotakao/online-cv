@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # To do
+    pdf: cv_pdf_version.pdf # To do
 
     # languages:
     #   title: Languages
@@ -118,7 +118,7 @@ experiences:
         company: University College London
         details: |
           - Principle investigator: Prof. Marc Deisenroth
-          - Worked on various projects to develop novel data assimilation algorithms using ideas from message passing,
+          - Worked on developing novel data assimilation algorithms using ideas from message passing,
             Gaussian markov random fields, stochastic (partial) differential equations, differential geometry
             and algebraic topology.
           - Collaborated with the UCL Earth Science Department on various projects on sea-ice modelling.
@@ -198,6 +198,11 @@ publications:
 
     preprints_heading: <b>Preprints</b>
     preprints:
+      - title: "Iterated INLA for state and parameter estimation in nonlinear dynamical systems"
+        link: "https://arxiv.org/abs/2402.17036"
+        arxiv_id: "arXiv:2402.17036 (2024)"
+        authors: Rafael Anderka, Marc Peter Deisenroth, So Takao
+
       - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
         link: "https://arxiv.org/pdf/2312.09769.pdf"
         arxiv_id: "arXiv:2312.09769 (2023)"
@@ -280,7 +285,7 @@ publications:
       - title: "Actually sparse variational Gaussian processes"
         link:
         authors: Jake Cunningham, So Takao, Mark van der Wilk, Marc Deisenroth
-        conference: "NerIPS workshop on Gaussian Processes, Spatiotemporal Modelling, and Decision-Making Systems (2022)"
+        conference: "NeurIPS workshop on Gaussian Processes, Spatiotemporal Modelling, and Decision-Making Systems (2022)"
 
 oss:
     title: OSS Contributions
