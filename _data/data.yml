@@ -208,11 +208,6 @@ publications:
         arxiv_id: "arXiv:2312.09769 (2023)"
         authors: Oliver Street, So Takao
 
-      - title: "A geometric extension of the Itô-Wentzell and Kunita's Formulas"
-        link: "https://arxiv.org/pdf/2311.04439.pdf"
-        arxiv_id: "arXiv:2311.04439 (2023)"
-        authors: Aythami Bethencourt de León, So Takao
-
       - title: "Gaussian processes on cellular complexes"
         link: "https://arxiv.org/pdf/2311.01198.pdf"
         arxiv_id: "arXiv:2311.01198 (2023)"
@@ -230,6 +225,11 @@ publications:
 
     publications_heading: <b> Publications </b>
     papers:
+      - title: "A geometric extension of the Itô-Wentzell and Kunita's Formulas"
+        link: "https://www.sciencedirect.com/science/article/pii/S0304414924000413"
+        authors: Aythami Bethencourt de León, So Takao
+        journal: "Stochastic Processes and Their Applications (2024)"
+
       - title: "Actually sparse variational Gaussian processes"
         link: "https://proceedings.mlr.press/v206/cunningham23a/cunningham23a.pdf"
         authors: Harry Jake Cunningham, Daniel Augusto de Souza, So Takao, Mark van der Wilk, Marc Deisenroth
