@@ -198,6 +198,10 @@ publications:
 
     preprints_heading: <b>Preprints</b>
     preprints:
+      - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
+        link: "https://assets.researchsquare.com/files/rs-4209064/v1_covered_53613c1a-5686-48f0-9f02-99cbce5a8d25.pdf?c=1712547501"
+        authors: William Gregory, Ronald MacEachern, So Takao, Isobel Lawrence, Carmen Nab, Marc Deisenroth, Michel Tsamados
+
       - title: "Iterated INLA for state and parameter estimation in nonlinear dynamical systems"
         link: "https://arxiv.org/abs/2402.17036"
         arxiv_id: "arXiv:2402.17036 (2024)"
