@@ -198,6 +198,10 @@ publications:
 
     preprints_heading: <b>Preprints</b>
     preprints:
+      - title: "Scalable data assimilation with message passing"
+        link: "https://arxiv.org/pdf/2404.12968.pdf"
+        authors: Oscar Key, So Takao, Daniel Giles, Marc Peter Deisenroth
+
       - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
         link: "https://assets.researchsquare.com/files/rs-4209064/v1_covered_53613c1a-5686-48f0-9f02-99cbce5a8d25.pdf?c=1712547501"
         authors: William Gregory, Ronald MacEachern, So Takao, Isobel Lawrence, Carmen Nab, Marc Deisenroth, Michel Tsamados
