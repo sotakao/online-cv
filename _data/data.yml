@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: online_cv/_data/cv_pdf_version.pdf # To do
+    pdf: _data/cv_pdf_version.pdf # To do
 
     # languages:
     #   title: Languages
