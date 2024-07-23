@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: So Takao
-    tagline: Postdoctoral Reseach Scholar
+    tagline: Postdoctoral Reseach Scholar @ Caltech
     avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: cv_pdf_version.pdf # To do
+    pdf: /_data/cv_pdf_version.pdf # To do
 
     # languages:
     #   title: Languages
@@ -323,6 +323,10 @@ oss:
       - title: ExtrinsicGaugeIndependentVectorGPs
         link: https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs
         tagline: "A library implementing the kernels for and experiments using extrinsic gauge equivariant vector field Gaussian Processes"
+
+talks:
+    title: Invited Talks
+  
 
 # skills:
 #     title: Skills &amp; Proficiency
