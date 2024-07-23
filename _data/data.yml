@@ -220,6 +220,16 @@ publications:
 
     publications_heading: <b> Publications </b>
     papers:
+      - title: "ARISGAN Extreme Super-Resolution of Arctic Surface Imagery using Generative Adversarial Networks"
+        link: "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2024.1417417/abstract"
+        authors: Christian Au, Michel Tsamados, Petru Manescu, So Takao
+        conference: "Frontiers in Remote Sensing (2024)"
+
+      - title: "Co-located OLCI optical imagery and SAR altimetry from Sentinel-3 for enhanced Arctic spring sea ice surface classification"
+        link: "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2024.1401653/full"
+        authors: Weibin Chen, Michel Tsamados, Rosemary Willatt, So Takao, others
+        conference: "Frontiers in Remote Sensing (2024)"
+
       - title: "Scalable data assimilation with message passing"
         link: "https://arxiv.org/pdf/2404.12968.pdf"
         authors: Oscar Key, So Takao, Daniel Giles, Marc Peter Deisenroth
