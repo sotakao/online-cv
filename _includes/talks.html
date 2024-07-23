@@ -11,10 +11,12 @@
 
   {% for talk in talks.items %}
   <div class="item">
-    <div class="talk-title">{{ talk.title }}</div>
+    <!-- <div class="talk-title">{{ talk.title }}</div> -->
+    <li>{{ talk.title }}</li>
     <div class="talk-venue">{{ talk.venue }}</div>
   </div><!--//item-->
   {% endfor %}
+
 
 </section><!--//section-->
 {% endif %}
