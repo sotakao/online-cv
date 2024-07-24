@@ -22,11 +22,23 @@
   </div><!--//item-->
   {% endfor %}
 
+  {% if roles.teaching_heading %}
+  <div class="intro">
+    {{ roles.teaching_heading | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
   {% for teach in roles.teaching %}
   <div class="item">
     <li>{{ workshop.title }}</li>
   </div><!--//item-->
   {% endfor %}
+
+  {% if roles.supervision_heading %}
+  <div class="intro">
+    {{ roles.supervision_heading | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
   {% for supervision in roles.supervision %}
   <div class="item">
@@ -36,11 +48,23 @@
   </div><!--//item-->
   {% endfor %}
 
+  {% if roles.awards_heading %}
+  <div class="intro">
+    {{ roles.awards_heading | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
   {% for award in roles.awards %}
   <div class="item">
     <li>{{ award.title }}</li>
   </div><!--//item-->
   {% endfor %}
+
+  {% if roles.professional_roles %}
+  <div class="intro">
+    {{ roles.professional_roles | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
   {% for prof in roles.professional %}
   <div class="item">
