@@ -369,6 +369,16 @@ talks:
       - title: Rethinking Data Assimilation as a Message Passing Problem.
         venue: UCL Statistical Machine Learning Internal Seminar (2022)
   
+      - title: Improving data-assimilation for weather forecasting. A graph-based Bayesian perspective.
+        venue: Talk at RIKEN, Tokyo (2023)
+
+      - title: Data Assimilation. A message passing perspective.
+        venue: CliMA, Caltech (2024)
+
+      - title: Data Assimilation. A message passing perspective.
+        venue: SIAM talk Caltech (2024)
+
+
 
 # skills:
 #     title: Skills &amp; Proficiency
