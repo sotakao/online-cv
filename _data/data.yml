@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: blob/master/_data/cv_pdf_version.pdf # To do
+    # pdf: blob/master/_data/cv_pdf_version.pdf # To do
 
     # languages:
     #   title: Languages
@@ -333,6 +333,41 @@ talks:
       - title: Networks of Coadjoint Orbits. Bridging the gap between geometric and statistical mechanics.
         venue: Imperial SIAM Student Chapter Annual Conference (2018)
 
+      - title: Modelling Uncertainty in the Ocean. A Geometric Perspective.
+        venue: SIAM-JAMS (2019)
+
+      - title: Extending the Generalised HMC to Lie Groups and Beyond.
+        venue: Geometric Science of Information Conference (2019)
+
+      - title: Geometric Framework for Stochastic GFD Modelling.
+        venue: Nonlinear and Stochastic Methods in Climate and GFD, Climate and GFD, Institute Henri Poincare (2019)
+
+      - title: Generalised Hamiltonian Monte Carlo on Lie Groups.
+        venue: SIAM-JAMS (2019)
+
+      - title: Stochastic Advection by Lie Transport. The Past, Present and Future.
+        venue: Second Applied Geometric Mechanics Meeting on “Stochastic Geometric Mechanics, Fluid Models and Uncertainty Quantification” (2019)
+
+      - title: Machine-learned 4DVar. A case study with the L63 Model.
+        venue: STUOD Inaugural Workshop (2020)
+
+      - title: Intelligent Weather Prediction. Can A.I. be used to produced better forecasts?
+        venue: UCL ComputerScience PhD Seminar (2020)
+
+      - title: Vector-valued Gaussian Processes on Manifolds.
+        venue: Met Office Academic Partnership Workshop on Uncertainty Quantification and Parameterization (2021)
+
+      - title: Spherical models for data driven weather forecasting.
+        venue: UCL Statistical Machine Learning Internal Seminar (2021)
+
+      - title: A novel framework for data assimilation using message passing.
+        venue: UCL ML4Climate (2022)
+
+      - title: Incorporating physics into spatiotemporal message passing.
+        venue: UCL Statistical Machine Learning Research Day (2022)
+
+      - title: Rethinking Data Assimilation as a Message Passing Problem.
+        venue: UCL Statistical Machine Learning Internal Seminar (2022)
   
 
 # skills:
