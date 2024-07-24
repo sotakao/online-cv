@@ -370,13 +370,77 @@ talks:
         venue: UCL Statistical Machine Learning Internal Seminar (2022)
   
       - title: Improving data-assimilation for weather forecasting. A graph-based Bayesian perspective.
-        venue: Talk at RIKEN, Tokyo (2023)
+        venue: RIKEN, Tokyo (2023)
 
       - title: Data Assimilation. A message passing perspective.
         venue: CliMA, Caltech (2024)
 
       - title: Data Assimilation. A message passing perspective.
         venue: SIAM talk Caltech (2024)
+
+publications:
+    title: Professional Roles
+
+    workshop_heading: <b>Organised workshops</b>
+    workshops:
+      - title: UCL Met Office Academic Partnership sandpit meeting on “Uncertainty quantification and parameterizations” (2021)
+      - title: UCL Met Office Academic Partnership workshop on Bayesian machine learning for weather and climate (2022)
+      - title: UCL AI Centre workshop on “AI for Sustainability” (2023)
+
+    teaching_heading: <b>Teaching</b>
+    teaching:
+      - title: Machine Learning Seminar course on “Message Passing Algorithms in Machine Learning”, UCL (2023)
+
+    supervision_heading: <b>Supervision</b>
+    supervision:
+      - student: Nanxi Zhang 
+        title: Solar PV Nowcasting with graph neural networks (2021)
+        coadvisor: with M. Deisenroth and J. Kelly
+
+      - student: Rui Li
+        title: Learning input conditional invariances using the marginal likelihood (2021)
+        coadvisor: with M. Deisenroth and M. van der Wilk
+
+      - student: Eiki Shimizu
+        title: Improving the approximate inference of invariant Gaussian processes (2021)
+        coadvisor: with M. Deisenroth and M. van der Wilk
+
+      - student: Sean Nassimiha
+        title: Modelling solar power production with spatio-temporal variational Gaussian processes (2022)
+        coadvisor: with M. Deisenroth and P. Dudfield
+
+      - student: Ronald Maceachern
+        title: Sea ice freeboard optimal interpolation (2022)
+        coadvisor: with M. Deisenroth, M. Tsamados and W. Gregory
+
+      - student: Bengt Lofgren
+        title: Boundary aware Gaussian processes. treading freely near the edge. (2022)
+        coadvisor: with M. Deisenroth and J. Cunningham
+
+      - student: Weibin Chen
+        title: Co-located OLCI optical imagery and SAR altimetry from Sentinel-3 for enhanced Arctic spring sea ice surface classification
+        coadvisor: with M. Tsamados and R. Willatt
+
+      - student: Eirik Aalstad Baekkelund
+        title: Probabilistic Solar PV Nowcasting (2023)
+        coadvisor: with M. Deisenroth
+
+      - student: Rafael Anderka
+        title: Efficient Data Assimilation With Nonlinear Stochastic Partial Differential Equations Through Markov Structures (2023)
+        coadvisor: with M. Deisenroth
+
+      - student: Christian Au
+        title: ARISGAN Extreme Super-Resolution of Arctic Surface Imagery using Generative Adversarial Networks (2023)
+        coadvisor: with M. Tsamados and P. Manescu
+
+    awards_heading: <b>Scholarships and Awards</b>
+      - title: Schrödinger Scholarship Scheme for Mathematics (2016-2020)
+      - title: Imperial SIAM Student Chapter Annual Conference. Best presentation award (2018).
+      - title: Doris Chen Mobility Award (2018-2019)
+
+    professional_roles: <b>Professional Roles</b>
+      - title: Reviewed papers for top tier academic journals and conferences including, Annals of Applied Probability (AAP), International Conference on Machine Learning, Conference on Neural Processing Systems (NeurIPS), International Conference on Learning Representations (ICLR) and Journal of Machine Learning Research (JMLR).
+      - title: Research lead for the Met Office Academic Partnership (MOAP) work group on “Applications of Data Science to Weather and Climate” (2021-2023)
 
 
 

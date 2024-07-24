@@ -1,0 +1,52 @@
+{% assign roles = site.data.data.professional_roles %}
+{% if roles %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ roles.title }}
+  </h2>
+
+  {% if roles.workshop_heading %}
+  <div class="intro">
+    {{ roles.workshop_heading | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for workshop in roles.workshops %}
+  <div class="item">
+    <li>{{ workshop.title }}</li>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for teach in roles.teaching %}
+  <div class="item">
+    <li>{{ workshop.title }}</li>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for supervision in roles.supervision %}
+  <div class="item">
+    <li>{{ supervision.student }}</li>
+    <div class="publication-authors">{{ supervision.title }}</div>
+    <div class="publication-id">{{ supervision.coadvisor }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for award in roles.awards %}
+  <div class="item">
+    <li>{{ award.title }}</li>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for prof in roles.professional %}
+  <div class="item">
+    <li>{{ prof.title }}</li>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
