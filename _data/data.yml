@@ -198,11 +198,6 @@ publications:
 
     preprints_heading: <b>Preprints</b>
     preprints:
-
-      - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
-        link: "https://assets.researchsquare.com/files/rs-4209064/v1_covered_53613c1a-5686-48f0-9f02-99cbce5a8d25.pdf?c=1712547501"
-        authors: William Gregory, Ronald MacEachern, So Takao, Isobel Lawrence, Carmen Nab, Marc Deisenroth, Michel Tsamados
-
       - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
         link: "https://arxiv.org/pdf/2312.09769.pdf"
         arxiv_id: "arXiv:2312.09769 (2023)"
@@ -220,6 +215,11 @@ publications:
 
     publications_heading: <b> Publications </b>
     papers:
+      - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
+        link: "https://www.nature.com/articles/s41467-024-51900-x"
+        authors: William Gregory, Ronald MacEachern, So Takao, Isobel Lawrence, Carmen Nab, Marc Deisenroth, Michel Tsamados
+        journal: "Nature Communications (2024)"
+
       - title: "ARISGAN Extreme Super-Resolution of Arctic Surface Imagery using Generative Adversarial Networks"
         link: "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2024.1417417/abstract"
         authors: Christian Au, Michel Tsamados, Petru Manescu, So Takao
