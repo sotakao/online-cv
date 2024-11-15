@@ -203,11 +203,6 @@ publications:
         arxiv_id: "arXiv:2312.09769 (2023)"
         authors: Oliver Street, So Takao
 
-      - title: "Transport noise restores uniqueness and prevents blow-up in geometric transport equations"
-        link: "https://arxiv.org/pdf/2211.14695.pdf"
-        arxiv_id: "arXiv:2211.14695 (2022)"
-        authors: Aythami Bethencourt de León, So Takao
-
       - title: "A unifying and canonical description of measure-preserving diffusions"
         link: "https://arxiv.org/pdf/2105.02845.pdf"
         arxiv_id: "arXiv:2105.02845 (2021)"
@@ -215,6 +210,11 @@ publications:
 
     publications_heading: <b> Publications </b>
     papers:
+      - title: "Transport noise restores uniqueness and prevents blow-up in geometric transport equations"
+        link: "https://arxiv.org/pdf/2211.14695.pdf"
+        authors: Aythami Bethencourt de León, So Takao
+        journal: "Stochastics and Partial Differential Equations: Analysis and Computations" 
+
       - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
         link: "https://www.nature.com/articles/s41467-024-51900-x"
         authors: William Gregory, Ronald MacEachern, So Takao, Isobel Lawrence, Carmen Nab, Marc Deisenroth, Michel Tsamados
@@ -306,6 +306,11 @@ publications:
         link:
         authors: Jake Cunningham, So Takao, Mark van der Wilk, Marc Deisenroth
         conference: "NeurIPS workshop on Gaussian Processes, Spatiotemporal Modelling, and Decision-Making Systems (2022)"
+
+      - title: "Graph Classification Gaussian Processes via Hodgelet Spectral Features"
+        link:
+        authors: Mathieu Alain, So Takao, Xiaowen Dong, Bastian Rieck, Emmanuel Noutahi
+        conference: "NeurIPS workshop on Bayesian Decision-making and Uncertainty (2024)"
 
 oss:
     title: OSS Contributions
