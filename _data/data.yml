@@ -111,7 +111,7 @@ experiences:
         company: California Institute of Technology
         details: |
           - Principle investigator: Prof. Andrew Stuart
-          - Working on various projects involving Gaussian processes, data assimilation, uncertainty quantification and operator learning.
+          - Conducting research in data assimilation, parameter estimation in physical models, probabilistic numerical methods and generative modelling.
 
       - role: Research Fellow in Machine Learning for Climate Science
         time: 2021 - 2023
@@ -329,6 +329,16 @@ oss:
         link: https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs
         tagline: "A library implementing the kernels for and experiments using extrinsic gauge equivariant vector field Gaussian Processes"
 
+      - title: Deep Random Features
+        tagline: "Scalable interpolation of spatiotemporal data using deep random features (Released soon)"
+
+research_visits:
+    title: Research Visits
+    items:
+      - title: Linköping University, Sweden (October 2024)
+        link: "https://elliit.se/news-and-events/focus-period-linkoping-2024/"
+        description: "5 weeks stay at Linköping University for the ELLIIT focus period in Machine Learning for Climate Science."
+
 talks:
     title: Invited Talks
     items:
@@ -382,6 +392,12 @@ talks:
 
       - title: Data Assimilation. A message passing perspective.
         venue: SIAM talk Caltech (2024)
+
+      - title: Data Assimilation. A message passing perspective.
+        venue: Linköping University ELLIIT Program, Sweden (2024)
+
+      - title: Geometric Gaussian Processes. With applications to remote sensing observations.
+        venue: Linköping University ELLIIT Program, Sweden (2024)
 
 professional_roles:
     title: Professional Roles
@@ -446,7 +462,7 @@ professional_roles:
 
     professional_roles: <b>Other Roles</b>
     professional:
-      - title: Reviewed papers for top tier academic journals and conferences including, Annals of Applied Probability (AAP), International Conference on Machine Learning, Conference on Neural Processing Systems (NeurIPS), International Conference on Learning Representations (ICLR) and Journal of Machine Learning Research (JMLR).
+      - title: Reviewed papers for top tier academic journals and conferences including, Annals of Applied Probability (AAP), International Conference on Machine Learning (ICML), Conference on Neural Processing Systems (NeurIPS), International Conference on Learning Representations (ICLR) and Journal of Machine Learning Research (JMLR).
       - title: Research lead for the Met Office Academic Partnership (MOAP) work group on “Applications of Data Science to Weather and Climate” (2021-2023)
 
 

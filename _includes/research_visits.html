@@ -1,0 +1,40 @@
+{% assign vis = site.data.data.research_visits %}
+{% if vis %}
+<section class="section research-visits">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ vis.title }}
+  </h2>
+
+  {% if vis.intro %}
+  <div class="intro">
+    <p>{{ vis.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %}
+
+  {% for item in vis.items %}
+  <div class="item">
+
+    <span class="project-title">
+      {% if item.link %}
+      <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+      {% else %}
+      {{ item.title }}
+      {% endif %}
+    </span>
+
+    {% if vis.description %}
+    - <span class="project-tagline">{{ vis.description }}</span>
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
