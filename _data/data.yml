@@ -308,7 +308,7 @@ publications:
         conference: "NeurIPS workshop on Gaussian Processes, Spatiotemporal Modelling, and Decision-Making Systems (2022)"
 
       - title: "Graph Classification Gaussian Processes via Hodgelet Spectral Features"
-        link:
+        link: "https://arxiv.org/pdf/2410.10546"
         authors: Mathieu Alain, So Takao, Xiaowen Dong, Bastian Rieck, Emmanuel Noutahi
         conference: "NeurIPS workshop on Bayesian Decision-making and Uncertainty (2024)"
 
