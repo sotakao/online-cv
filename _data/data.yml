@@ -393,6 +393,9 @@ talks:
       - title: Data Assimilation. A message passing perspective.
         venue: SIAM talk Caltech (2024)
 
+      - title: Oddities of parameter inference in Gaussian process-based PDE solvers.
+        venue: UCL Sustainability and Machine Learning Seminar (2024)
+
       - title: Data Assimilation. A message passing perspective.
         venue: Linköping University ELLIIT Program, Sweden (2024)
 
