@@ -198,6 +198,9 @@ publications:
 
     preprints_heading: <b>Preprints</b>
     preprints:
+      - title: "Deep random features for scalable interpolation of spatiotemporal data"
+        authors: Weibin Chen, Azhir Mahmood, Michel Tsamados, So Takao
+
       - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
         link: "https://arxiv.org/pdf/2312.09769.pdf"
         arxiv_id: "arXiv:2312.09769 (2023)"
