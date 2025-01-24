@@ -196,20 +196,13 @@ experiences:
 publications:
     title: Preprints and Publications
 
-    preprints_heading: <b>Preprints</b>
-    preprints:
-      - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
-        link: "https://arxiv.org/pdf/2312.09769.pdf"
-        arxiv_id: "arXiv:2312.09769 (2023)"
-        authors: Oliver Street, So Takao
-
-      - title: "A unifying and canonical description of measure-preserving diffusions"
-        link: "https://arxiv.org/pdf/2105.02845.pdf"
-        arxiv_id: "arXiv:2105.02845 (2021)"
-        authors: Alessandro Barp, So Takao, Michael Bethencourt, Alexis Arnaudon, Mark Girolami
-
     publications_heading: <b> Publications </b>
     papers:
+      - title: "Deep Random Features for Scalable Interpolation of Spatiotemporal Data"
+        link: "https://arxiv.org/pdf/2412.11350"
+        authors: Weibin Chen, Azhir Mahmood, Michel Tsamados, So Takao
+        journal: "International Conference on Learning Representations (To appear, 2025)" 
+
       - title: "Transport noise restores uniqueness and prevents blow-up in geometric transport equations"
         link: "https://arxiv.org/pdf/2211.14695.pdf"
         authors: Aythami Bethencourt de León, So Takao
@@ -294,6 +287,18 @@ publications:
         link: "https://arxiv.org/pdf/1804.11139.pdf"
         authors: Alexis Arnaudon, So Takao
         journal: "Journal of Geometric Mechanics (2018)"
+
+    preprints_heading: <b>Preprints</b>
+    preprints:
+      - title: "Semimartingale driven mechanics and reduction by symmetry for stochastic and dissipative dynamical systems"
+        link: "https://arxiv.org/pdf/2312.09769.pdf"
+        arxiv_id: "arXiv:2312.09769 (2023)"
+        authors: Oliver Street, So Takao
+
+      - title: "A unifying and canonical description of measure-preserving diffusions"
+        link: "https://arxiv.org/pdf/2105.02845.pdf"
+        arxiv_id: "arXiv:2105.02845 (2021)"
+        authors: Alessandro Barp, So Takao, Michael Bethencourt, Alexis Arnaudon, Mark Girolami
 
     workshops_heading: <b> Workshop papers </b>
     workshop_papers:
