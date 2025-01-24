@@ -204,9 +204,9 @@ publications:
         journal: "International Conference on Learning Representations (To appear, 2025)" 
 
       - title: "Transport noise restores uniqueness and prevents blow-up in geometric transport equations"
-        link: "https://arxiv.org/pdf/2211.14695.pdf"
+        link: "https://link.springer.com/article/10.1007/s40072-024-00339-8"
         authors: Aythami Bethencourt de León, So Takao
-        journal: "Stochastics and Partial Differential Equations: Analysis and Computations (To appear)" 
+        journal: "Stochastics and Partial Differential Equations: Analysis and Computations (2024)" 
 
       - title: "Scalable interpolation of satellite altimetry data with probabilistic machine learning"
         link: "https://www.nature.com/articles/s41467-024-51900-x"
